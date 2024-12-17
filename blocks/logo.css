@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo__image {
+    margin: 34px auto 0;
+    width: 32px;
+    height: 32px;
+  }
+  .logo__name-gallery {
+    width: 255px;
+    height: 91px;
+    padding-top: 22px;
+    margin: auto;
+  }
+  @media screen and (min-width: 320px) and (max-width: 584px) {
+    .logo__image {
+      width: 23px;
+      height: 23px;
+    }
+    .logo__name-gallery {
+      width: 187px;
+      height: 11px;
+    }
+  }
